@@ -1,0 +1,47 @@
+.box{
+    width: 780px; margin-left: auto; margin-right: auto;
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+    position: relative; display: inline-block;
+    margin: 35px 20%; padding: 15px 0px;
+    text-align: center; width: 500px;
+}
+.box:hover{
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 0 5px orangered;
+}
+.box-image{display: inline-block;
+    text-align: center;
+    width: 350px; height: 350px;
+}
+.box-icon{
+    position: absolute; top: 0px; right: 0px;
+}
+.box-name{
+    position: absolute;
+    left: 0px; top: -30px; width: inherit;
+    text-align: center;
+    font-family: Georgia; font-weight: bold; 
+    color: grey;
+    font-size: x-large;
+}
+.box-price{
+    position: absolute; left: 10px; bottom: -5px;
+    font-weight: bold; color: rgb(0, 0, 0);
+    font-size:x-large;
+}
+.box-actions{
+    position: absolute; right: 15px; bottom: 5px; width: 40px; 
+    
+}
+.box-actions img{
+    cursor: pointer; border: 0px;
+}
+.top{
+    top: 40px;
+    background-color: aqua;
+}
+.tieude{
+    background-color: black;
+
+}
